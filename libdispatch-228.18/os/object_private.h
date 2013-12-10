@@ -53,11 +53,17 @@
 #define OS_OBJECT_EXPORT extern
 #endif
 
+#if 0
 #if OS_OBJECT_USE_OBJC && defined(__has_feature) && __has_feature(objc_arc)
 #define _OS_OBJECT_OBJC_ARC 1
 #else
 #define _OS_OBJECT_OBJC_ARC 0
 #endif
+#endif
+
+// Sinetek: is this the right thing?
+#define _OS_OBJECT_OBJC_ARC 0
+
 
 #define _OS_OBJECT_GLOBAL_REFCNT INT_MAX
 

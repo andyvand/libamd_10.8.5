@@ -979,6 +979,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = markgc;
+				SDKROOT = macosx10.8;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -994,6 +995,7 @@
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = markgc;
+				SDKROOT = macosx10.8;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

@@ -1044,6 +1044,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E40041AA125D705F0022B135 /* libdispatch-resolver.xcconfig */;
 			buildSettings = {
+				DYLIB_CURRENT_VERSION = 228.18.0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				SDKROOT = macosx10.8;
 				SUPPORTED_PLATFORMS = macosx;
 			};
@@ -1053,6 +1055,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E43D93F11097917E004F6A62 /* libdispatch.xcconfig */;
 			buildSettings = {
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks/System.framework/PrivateHeaders",
 					"$(PROJECT_DIR)",
@@ -1113,6 +1116,7 @@
 			baseConfigurationReference = E43D93F11097917E004F6A62 /* libdispatch.xcconfig */;
 			buildSettings = {
 				BUILD_VARIANTS = debug;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(SDKROOT)/System/Library/Frameworks/System.framework/PrivateHeaders",
 					"$(PROJECT_DIR)",
@@ -1131,6 +1135,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E40041AA125D705F0022B135 /* libdispatch-resolver.xcconfig */;
 			buildSettings = {
+				DYLIB_CURRENT_VERSION = 228.18.0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				SDKROOT = macosx10.8;
 				SUPPORTED_PLATFORMS = macosx;
 			};
